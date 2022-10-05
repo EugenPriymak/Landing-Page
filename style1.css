@@ -1,5 +1,5 @@
 div {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 body {
@@ -98,6 +98,8 @@ ul {
 }
 
 .info {
+    /* height:1000px; */
+    padding: 2em 0;
     display:flex;
     flex-direction:column;
     /* justify-content:center; */
@@ -153,15 +155,18 @@ ul {
     font-style:italic;
     background-color:#e5e7eb;
     display:flex;
-    flex-direction:column;
-    align-items: center;
+    /* flex-direction:column; */
+    /* align-items: center; */
 
     /* width: 1000px; */
-    /* justify-content:center; */
+    justify-content:center;
     /* align-items:center; */
 
 }
 
+.quote-contener {
+
+}
 .quote-text {
     /* padding: 0 20em; */
     max-width: 820px;
@@ -175,10 +180,13 @@ ul {
 
 .quote-autor {
     /* flex:1 1; */
-    align-self:flex-end;
+    /* align-self:flex-end; */
+    text-align:end;
+    padding: 0 2em 2em 0;
     max-width:850px;
     /* margin-right:18em; */
-    margin-top:0;
+    margin-top:10px;
+
     font-size: 24px;
     font-weight:600;
     /* flex:auto; */
@@ -186,7 +194,7 @@ ul {
 
 footer {
     color:#e5e7eb;
-    padding:1em;
+    padding:2em;
     font-size: 18px;
 }
 
