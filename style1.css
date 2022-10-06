@@ -89,7 +89,7 @@ ul {
     padding: 10px 2em;
     border:none;
     border-radius:5px;
-
+margin-bottom: 10px;
     font-size: 18px;
 }
 
@@ -101,7 +101,7 @@ ul {
     color:#e5e7eb;
 
     width:50%;
-    height: 200px;
+    /* height: 200px; */
 }
 
 .info {
